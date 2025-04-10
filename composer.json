@@ -1,0 +1,17 @@
+{
+    "name": "nnil/my-first-composer-package",
+    "description": "This is my first composer package",
+    "autoload": {
+        "psr-4": {
+            "Nnil\\MyFirstComposerPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nnil"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^12.1"
+    }
+}
