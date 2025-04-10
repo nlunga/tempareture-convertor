@@ -1,6 +1,8 @@
 {
     "name": "nnil/my-first-composer-package",
     "description": "This is my first composer package",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Nnil\\MyFirstComposerPackage\\": "src/"
